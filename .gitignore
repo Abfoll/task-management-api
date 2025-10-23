@@ -1,17 +1,15 @@
-# Node dependencies
+# Dependencies
 node_modules/
-
-# Logs
-logs
-*.log
 npm-debug.log*
-yarn-debug.log*
 
 # Environment variables
 .env
 .env.local
 .env.production
-!.env.example
+
+# Logs
+logs
+*.log
 
 # Runtime data
 pids
@@ -19,40 +17,15 @@ pids
 *.seed
 *.pid.lock
 
-# Coverage and test output
+# Coverage directory used by tools like istanbul
 coverage/
-.nyc_output
-*.lcov
 
-# IDEs and editors
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
-
-# Built / cache directories
-.cache
-.parcel-cache
-.next
-out
-dist
-.nuxt
-.cache/
-.vuepress/dist
-
-# Optional files
-.npm
-.eslintcache
-.stylelintcache
-.node_repl_history
-
-# Yarn v3
-.pnp.*
-.yarn/
-
-# Other
-*.tgz
